@@ -1,4 +1,4 @@
-# RoySearch.h
+# RoySearch
 
 //把UISearchBar和UISearchDisplayController封装在一起的一个Search控件，用时只需在需要调用的ViewController里调用即可。完美适配tableView。
 
@@ -7,7 +7,7 @@
 
 
 //step 1
-
+ #import RoySearch.h
 //step 2
 @property (nonatomic,strong) RoySearch *mySearch;
 
